@@ -1,0 +1,7 @@
+<h2><%= params[:query] %></h2>
+<h2><%= @coach_response %></h2>
+<form action="/answer" method="get">
+  <label for="question">Try again! Speak to your coach!</label>
+  <input type="text" id="question" name="query" placeholder="what time is it?">
+  <input type="submit" value="Go on!">
+</form>
